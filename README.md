@@ -1,10 +1,8 @@
 E# HelloWorld Smart Contract
 
-This Solidity smart contract, named `HelloWorld`, showcases the use of `require()`, `assert()`, and `revert()` statements to add two to a given input.
+This Solidity smart contract showcases the use of `require()`, `assert()`, and `revert()` statements to add two to a given input.
 
-## License
 
-This code is released under the MIT License. See [LICENSE](LICENSE) for more information.
 
 ## Smart Contract Details
 
@@ -13,7 +11,7 @@ This code is released under the MIT License. See [LICENSE](LICENSE) for more inf
 
 ## Description
 
-The `HelloWorld` smart contract has three functions, each demonstrating a different way to handle conditions:
+The smart contract has three functions, each demonstrating a different way to handle conditions:
 
 1. **`addTwoRequire(uint x)`**
 
@@ -30,7 +28,7 @@ The `HelloWorld` smart contract has three functions, each demonstrating a differ
    - Description: Uses the `revert()` statement to revert the transaction if the input `x` is not equal to 2.
    - Returns: The sum of `x` and 2.
 
-4. Deploy this smart contract to the Ethereum blockchain using a development environment like Remix or Truffle.
+4. Deploy this smart contract to the Ethereum blockchain using a development environment like Remix.
 
 5. Call the `addTwoRequire(uint x)`, `addTwoAssert(uint x)`, and `addTwoRevert(uint x)` functions with different values of `x` to observe the behavior of `require()`, `assert()`, and `revert()`.
 
